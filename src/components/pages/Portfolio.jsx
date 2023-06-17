@@ -34,7 +34,7 @@ export const Portfolio = () => {
             {list.map((item) => (
               <div className='box' data-aos='fade-up'>
                 <div className='img'>
-                  <iframe width="100%" height={item.height} src={item.cover} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <iframe width="100%" height={item.height} src={item.cover} title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" allowfullscreen></iframe>
                 </div>
               </div>
             ))}
